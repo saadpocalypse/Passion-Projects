@@ -10,4 +10,7 @@ At any point in the game, you can enter '!!' as input to end the game and see a 
 Rest of the rules are explained once you run the code.
 
 ## Luhn Algorithm
-Luhn Algorithm, named after its creator, Hans Peter Luhn, is an Algorithm to determine the validity of a plethora of identification numbers. The one I made is specifically for credit/debit card numbers.
+Luhn Algorithm, named after its creator, Hans Peter Luhn, is an algorithm to determine the validity of a plethora of identification numbers. The one I made is specifically for credit/debit card numbers.
+
+## Mad Libs
+The program asks for various inputs from users such as adjectives, verbs, and names of body parts to incorporate them into a hard-coded string, creating what is known as a 'Mad Lib'.
