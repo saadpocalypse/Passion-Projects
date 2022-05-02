@@ -8,3 +8,6 @@ You put in 6 surrounding letters and 1 central letter and make all the words you
 I am using a summarized American English dictionary for validating the words. <br>
 At any point in the game, you can enter '!!' as input to end the game and see a list of all the words that could have been formed. <br>
 Rest of the rules are explained once you run the code.
+
+## Luhn Algorithm
+Luhn Algorithm, named after its creator, Hans Peter Luhn, is an Algorithm to determine the validity of a plethora of identification numbers. The one I made is specifically for credit/debit card numbers.
