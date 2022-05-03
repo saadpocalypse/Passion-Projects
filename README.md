@@ -16,4 +16,4 @@ Luhn Algorithm, named after its creator, Hans Peter Luhn, is an algorithm to det
 The program asks for various inputs from users such as adjectives, verbs, and names of body parts to incorporate them into a hard-coded string, creating what is known as a 'Mad Lib'.
 
 ## Creed Bratton Bot
-This bot goes the the Dunder Mifflin subreddit for the show The Office (US version) and looks for comments that mention Creed Bratton, a character from the show. If the name is found, it replies to the comment with a quote from the character. There is a separate [PRAW](https://praw.readthedocs.io/en/stable/#) for this bot.
+This bot goes the the Dunder Mifflin subreddit for the show The Office (US version) and looks for comments that mention Creed Bratton, a character from the show. If the name is found, it replies to the comment with a quote from the character. There is a separate [repository](https://github.com/saadpocalypse/CreedBrattonBot) for this bot.
