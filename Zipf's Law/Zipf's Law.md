@@ -11,5 +11,26 @@ or you can download it from [here](https://pypi.org/project/matplotlib/) and ins
 
 ## Output
 The graph I receive in the output is attached below, feel free to modify the code to read whatever text file you want.
+The top twenty words I receive are:
+* a
+* the
+* you
+* i
+* to
+* of
+* and
+* is
+* this
+* it
+* what
+* we
+* in
+* your
+* have
+* all
+* that
+* are
+* do
+* just
 
 <img width="636" alt="Screenshot 2022-05-10 at 8 12 56 PM" src="https://user-images.githubusercontent.com/64619851/167719267-5c4ded44-8072-40ad-8c75-8dd38ca9ab53.png">
