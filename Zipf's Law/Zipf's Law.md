@@ -11,7 +11,7 @@ or you can download it from [here](https://pypi.org/project/matplotlib/) and ins
 
 ## Output
 The graph I receive in the output is attached below, feel free to modify the code to read whatever text file you want.
-The top twenty words I receive are:
+The top twenty words I received are:
 * a
 * the
 * you
