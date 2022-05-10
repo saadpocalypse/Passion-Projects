@@ -1,0 +1,4 @@
+# Zipf's Law
+
+Zipf's law is an empirical law formulated using mathematical statistics that refers to the fact that for many types of data studied in the physical and social sciences, the rank-frequency distribution is an inverse relation. It states that, for example, in the case of words in a linguistic corpus, the frequencies of certain words are inversely proportional to their ranks. <br>
+I wrote a program that creates a dictionary where every key: value pair is a word from the script of the [Bee Movie](https://www.imdb.com/title/tt0389790/) and its frequency in the entire script. I organize the dictionary in descending order in terms of values, take the top 20 words and plot a graph to see if Zipf's Law holds. I use the data visualization library called [Matplotlib](https://matplotlib.org). You can install the lin
