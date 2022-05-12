@@ -59,6 +59,20 @@ def printBoard(letters, central):
     print("    {0}   {1}".format(letters[4], letters[5]))
 
 
+def pangramChecker(wordArg, listArg):
+    returnStatement = False
+    pangramCounter = 0
+
+    for element in listArg:
+        if element.lower() in wordArg:
+            pangramCounter = pangramCounter + 1
+
+    if pangramCounter == 7:
+        returnStatement = True
+
+    return returnStatement
+
+
 def intCheck(arg):
     flag = True
     for char in arg:
@@ -83,10 +97,7 @@ def endGame(centerArg):
 def wordChecker(wordArg, listDone, center):
     wordArg = wordArg.strip()
 
-    if wordArg == "!":
-        return False, "End"
-
-    elif wordArg == "":
+    if wordArg == "":
         return False, "Shuffled!"
 
     elif wordArg == "?":
@@ -126,15 +137,25 @@ def main():
     wordsDone = []
     centralLetter = makeBoard()
     listOfLetters.append(centralLetter)
+    finalList = endGame(centralLetter)
 
     print(
         "\nKeep entering words, leave empty to reshuffle, "
-        "enter '!' to end game and '?' to see words you have done."
+        "enter '?' to see words you have done."
         "\nTo end the game and see all the words that could have been formed, enter '!!'.")
     while True:
+        if len(wordsDone) == len(finalList):
+            print("\nCongratulations! You have guessed all of the {0} possible words!".format(len(wordsDone)))
+            print("\nAll your words: ")
+            for element in wordsDone:
+                print(element)
+            print("\nThanks for playing!")
+            print("-----PROGRAM TERMINATED-----")
+            break
         print()
         printBoard(printerList, centralLetter)
         inputTwo = input("\n")
+
         if inputTwo.strip() == "?":
             print("You have guessed {0} word(s): ".format(len(wordsDone)))
             wordsDone.sort()
@@ -142,12 +163,16 @@ def main():
                 print(element)
         else:
             if inputTwo == "!!":
-                finalList = endGame(centralLetter)
                 print("All the words that could have been: ")
                 finalList.sort()
                 for wordArg in finalList:
                     print(wordArg)
-                print("Thanks for playing!")
+
+                print("\nAll the words that you did: ")
+                for element in wordsDone:
+                    print(element)
+                print("\nYou made {0} out of {1} possible words!".format(len(wordsDone), len(finalList)))
+                print("\nThanks for playing!")
                 print("-----PROGRAM TERMINATED-----")
                 break
             result, printer = wordChecker(inputTwo, wordsDone, centralLetter)
@@ -156,18 +181,12 @@ def main():
                 if printer == "Shuffled!":
                     random.shuffle(printerList)
 
-                if printer == "End":
-                    print("You guessed {0} word(s): ".format(len(wordsDone)))
-                    for element in wordsDone:
-                        print(element)
-                    print("Thanks for playing!")
-                    print("-----PROGRAM TERMINATED-----")
-                    break
-
                 else:
                     print(printer)
 
             else:
+                if pangramChecker(inputTwo, listOfLetters):
+                    print("Pangram!")
                 print(printer)
 
 
