@@ -7,7 +7,8 @@ This game is similar to Spelling Bee by Times New York, all credit goes to them,
 You put in 6 surrounding letters and 1 central letter and make all the words you can think of which include the central letter. <br>
 I am using a summarized American English dictionary for validating the words. <br>
 At any point in the game, you can enter '!!' as input to end the game and see a list of all the words that could have been formed. <br>
-Rest of the rules are explained once you run the code.
+Rest of the rules are explained once you run the code. <br>
+More details in the markdown file included in the folder.
 
 ## Luhn Algorithm
 Luhn Algorithm, named after its creator, Hans Peter Luhn, is an algorithm to determine the validity of a plethora of identification numbers. The one I made is specifically for credit/debit card numbers.
