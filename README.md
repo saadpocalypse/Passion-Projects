@@ -21,3 +21,6 @@ This bot goes through the Dunder Mifflin subreddit for the show The Office (US v
 
 ## 5. Zipf's Law
 Zipf's Law is a statistical distribution in certain data sets, such as words in a linguistic corpus, in which the frequencies of certain words are inversely proportional to their ranks. I performed a statistical analysis on the words in the script of the [Bee Movie](https://www.imdb.com/title/tt0389790/), and I plotted a graph of the top twenty most used words in the scripts against their frequencies to see if Zipf's Law holds. More information on the project is in the folder.
+
+## 6. Wordle Solver
+I made a solver for Wordle that uses the correct, incorrect and partially correct guesses from each turn you make to determine the possible options you have left until they are narrowed down to a single guess. More information is in the markdown file included in the folder.
