@@ -1,7 +1,7 @@
 # Wordle Solver
 
 ## How it works
-I use a text file that contains all the words Wordle uses and thae file is filtered down with every guess made by the user. 
+I use a text file that contains all the words Wordle uses and the file is filtered down with every guess made by the user. 
 
 ## How to use
 ### 1. Make a guess on Wordle.
