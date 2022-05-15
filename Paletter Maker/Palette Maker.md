@@ -7,3 +7,7 @@
 * The function generates a random number between 000000 and 16777215. The function then converts this number to its equivalent hexadecimal value which ranges between 000000 and FFFFFF, which are the minimum and maximum values on the hexadecimal scale of colour.
 * This number is given a _'#'_ as a prefix and the resulting string is set as the background colour of the column and it also replaces the content inside the _\<h4\>_ tag in question.
 * The _copyDivToClipboard()_ function copies the content inside the _\<h4\>_ tag, which is the hexadecimal value of the column color, to the clipboard. It takes the ID of the _\<h4\>_ tag as an argument.
+
+## How to use
+* Click on the _switch_ button under a column to change the column's color.
+* Click on the column to copy its hexadecimal value.
