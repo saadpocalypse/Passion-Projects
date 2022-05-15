@@ -54,4 +54,7 @@ At this point, we can afford to go one by one through the options left to see wh
 ***
 
 ## Notes
-
+* I have done all the error handling I could think of.
+* If a letter is at a correct placement in the word and shows 'grey' at another placement in the same guess, do not input it as an incorrect letter. It is still part of the word, it may just mean it is not repeated twice in the word.
+* The program can handle multiple repetitions of the same letter.
+* Feel free to use and/or modify the program as you like.
