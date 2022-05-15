@@ -20,5 +20,11 @@ We have now shortened the list of words from 12972 options down to 240, which is
 5. Now, the letters P and T are incorrect, so we feed them into the program as such.
 <img width="391" alt="Screenshot 2022-05-15 at 5 06 59 AM" src="https://user-images.githubusercontent.com/64619851/168452200-decc8afa-e683-4388-bb4d-960d2bf4bd2f.png">
 
-6. The letter C is partially correct, we put it into the program with its current position
-<img width="338" alt="Screenshot 2022-05-15 at 5 06 21 AM" src="https://user-images.githubusercontent.com/64619851/168452191-f0a20be1-9522-4f60-bd03-a6123e40a432.png">
+6. The letter S and O are at correct positions. We will put them into the program with their respective placements.
+<img width="339" alt="Screenshot 2022-05-15 at 5 07 16 AM" src="https://user-images.githubusercontent.com/64619851/168452250-e7bb6b66-2025-437c-a91a-80134db3043b.png">
+<img width="341" alt="Screenshot 2022-05-15 at 5 07 35 AM" src="https://user-images.githubusercontent.com/64619851/168452251-d1790fef-79e7-4e34-892d-7645805a89f9.png">
+
+7. The letter U is partially correct. Like before, I will put it into the program along with its current position
+<img width="338" alt="Screenshot 2022-05-15 at 5 07 48 AM" src="https://user-images.githubusercontent.com/64619851/168452276-7bd40249-6242-4980-84a6-2a5a814ea6fd.png">
+
+
