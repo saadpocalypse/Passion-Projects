@@ -13,3 +13,12 @@ I use a text file that contains all the words Wordle uses and thae file is filte
 3. Since C is partially correct, I input it along with the position it is incorrectly placed at.
 <img width="338" alt="Screenshot 2022-05-15 at 5 06 21 AM" src="https://user-images.githubusercontent.com/64619851/168452060-c66e0bdd-460b-486c-8f0e-2dd913725975.png">
 We have now shortened the list of words from 12972 options down to 240, which is 1.85% of the original number of options.
+
+4. Make the next guess on Wordle.
+<img width="383" alt="Screenshot 2022-05-15 at 5 08 25 AM" src="https://user-images.githubusercontent.com/64619851/168452165-9cebaf08-d2e6-46d4-bba4-16d83f4ee930.png">
+
+5. Now, the letters P and T are incorrect, so we feed them into the program as such.
+<img width="391" alt="Screenshot 2022-05-15 at 5 06 59 AM" src="https://user-images.githubusercontent.com/64619851/168452200-decc8afa-e683-4388-bb4d-960d2bf4bd2f.png">
+
+6. The letter C is partially correct, we put it into the program with its current position
+<img width="338" alt="Screenshot 2022-05-15 at 5 06 21 AM" src="https://user-images.githubusercontent.com/64619851/168452191-f0a20be1-9522-4f60-bd03-a6123e40a432.png">
