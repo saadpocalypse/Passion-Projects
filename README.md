@@ -26,4 +26,4 @@ Zipf's Law is a statistical distribution in certain data sets, such as words in 
 I made a solver for Wordle that uses the correct, incorrect and partially correct guesses from each turn you make to determine the possible options you have left until they are narrowed down to a single guess. More information is in the markdown file included in the folder.
 
 ## 7. Palette Maker
-I made a random color palette generator using HTML, CSS and JavaScript. More information is inside the folder.
+I made a random color palette generator using HTML, CSS (Bootstrap 5) and JavaScript. Buttons in the footer are used to generate a random color in the column above and the hexcode for the color can be copied to clipboard by clicking on the column itself. More information is in the markdown file included in the folder.
