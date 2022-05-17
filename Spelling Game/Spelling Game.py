@@ -82,16 +82,19 @@ def intCheck(arg):
     return flag
 
 
-def endGame(centerArg):
+def endGame(centerArg, pangramList):
     listOfAll = []
     empty = []
+    pangrams = 0
     for element in listOfLetters:
         for wordCurrent in dictionary[alphabet.index(element.lower())]:
             result, printer = wordChecker(wordCurrent, empty, centerArg)
             if result:
+                if pangramChecker(wordCurrent, pangramList):
+                    pangrams = pangrams + 1
                 listOfAll.append(wordCurrent.upper())
 
-    return listOfAll
+    return listOfAll, pangrams
 
 
 def wordChecker(wordArg, listDone, center):
@@ -137,7 +140,11 @@ def main():
     wordsDone = []
     centralLetter = makeBoard()
     listOfLetters.append(centralLetter)
-    finalList = endGame(centralLetter)
+    finalList, pangramCount = endGame(centralLetter, listOfLetters)
+    if pangramCount == 1:
+        pangramStatement = "There was 1 pangram!"
+    else:
+        pangramStatement = "There were " + str(pangramCount) + " pangrams!"
 
     print(
         "\nKeep entering words, leave empty to reshuffle, "
@@ -166,7 +173,11 @@ def main():
                 print("All the words that could have been: ")
                 finalList.sort()
                 for wordArg in finalList:
-                    print(wordArg)
+                    if pangramChecker(wordArg.lower(), listOfLetters):
+                        print(wordArg + " (Pangram)")
+                    else:
+                        print(wordArg)
+                print(pangramStatement)
 
                 print("\nAll the words that you did: ")
                 for element in wordsDone:
