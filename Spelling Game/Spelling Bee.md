@@ -17,3 +17,4 @@
 * When reading the .txt file containing all the words, I isolate the words that are longer than the length of 3 and have no more than 7 unique letters, since these are the only words that can be accepted. This is to make the program a bit more efficient.
 * I make 26 different arrays, each one containing words starting from a specific letter. I only parse the appropriate array to validate the words that are entered.
 * I made a function to check for pangrams as well. If the word entered by the user comprises of all the letters in play, the user is notified that the word entered was a pangram.
+* When the game is ended, user stats are returned as well as all the pangrams that could've been made.
