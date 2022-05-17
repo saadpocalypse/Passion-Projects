@@ -8,7 +8,7 @@
 5. The words entered should be at least 4 letters long.
 6. The words entered cannot have any letters except the ones in play.
 7. The words entered cannot include special characters.
-8. Only words in the .txt file are accepted as valid words.
+8. Only words in the _.txt_ file are accepted as valid words.
 
 ## Notes
 * The game will end automatically when the user guesses all the possible words that can be made.
