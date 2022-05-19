@@ -29,11 +29,12 @@
 <img width="234" alt="Screenshot 2022-05-20 at 2 04 54 AM" src="https://user-images.githubusercontent.com/64619851/169404875-1d83decf-00c3-47bd-b691-691328b9b7ce.png">
 
 
-
-
-
 * I have tried my best to handle all the edge cases and errors.
 * When reading the _.txt_ file containing all the words, I isolate the words that are longer than the length of 3 and have no more than 7 unique letters, since these are the only words that can be accepted. This is to make the program a bit more efficient.
 * I make 26 different arrays, each one containing words starting from a specific letter. I only parse the appropriate array to validate the words that are entered.
 * I made a function to check for pangrams as well. If the word entered by the user comprises of all the letters in play, the user is notified that the word entered was a pangram.
 * When the game ends, user stats are returned as well as all the pangrams that could've been made.
+<img width="331" alt="Screenshot 2022-05-20 at 2 05 08 AM" src="https://user-images.githubusercontent.com/64619851/169404959-48379936-3c23-49e5-8eb5-852130e359cb.png">
+
+
+
