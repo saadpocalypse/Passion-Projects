@@ -35,6 +35,7 @@
 * I made a function to check for pangrams as well. If the word entered by the user comprises of all the letters in play, the user is notified that the word entered was a pangram.
 * When the game ends, user stats are returned as well as all the pangrams that could've been made.
 <img width="331" alt="Screenshot 2022-05-20 at 2 05 08 AM" src="https://user-images.githubusercontent.com/64619851/169404959-48379936-3c23-49e5-8eb5-852130e359cb.png">
+<img width="323" alt="Screenshot 2022-05-20 at 2 05 15 AM" src="https://user-images.githubusercontent.com/64619851/169404999-af89e036-aee6-45f0-a3bb-f2f9cd3a872a.png">
 
 
 
