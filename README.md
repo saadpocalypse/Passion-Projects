@@ -22,14 +22,24 @@ Luhn Algorithm, named after its creator, Hans Peter Luhn, is an algorithm to det
 ### 3. Mad Libs
 The program asks for various inputs from users such as adjectives, verbs, and names of body parts to incorporate them into a hard-coded string, creating what is known as a 'Mad Lib'.
 
+<hr>
+
 ### 4. Creed Bratton Bot
 This bot goes through the Dunder Mifflin subreddit for the show The Office (US version) and looks for comments that mention Creed Bratton, a character from the show. If the name is found, it replies to the comment with a quote from the character. There is a separate [repository](https://github.com/saadpocalypse/CreedBrattonBot) for this bot.
+
+<hr>
 
 ### 5. Zipf's Law
 Zipf's Law is a statistical distribution in certain data sets, such as words in a linguistic corpus, in which the frequencies of certain words are inversely proportional to their ranks. I performed a statistical analysis on the words in the script of the [Bee Movie](https://www.imdb.com/title/tt0389790/), and I plotted a graph of the top twenty most used words in the scripts against their frequencies to see if Zipf's Law holds. More information on the project is in the folder.
 
+<hr>
+
 ### 6. Wordle Solver
 I made a solver for Wordle that uses the correct, incorrect and partially correct guesses from each turn you make to determine the possible options you have left until they are narrowed down to a single guess. More information is in the markdown file included in the folder.
 
+<hr>
+
 ### 7. Palette Maker
 I made a random color palette generator using HTML, CSS (Bootstrap 5) and JavaScript. Buttons in the footer are used to generate a random color in the column above and the hexcode for the color can be copied to clipboard by clicking on the column itself. More information is in the markdown file included in the folder.
+
+<hr>
