@@ -20,7 +20,7 @@ More details in the markdown file included in the folder.
 
  <hr>
 
- ### 3. Creed Bratton Bot
+ ## 3. Creed Bratton Bot
  This bot goes through the Dunder Mifflin subreddit for the show The Office (US version) and looks for comments that mention Creed Bratton, a character from the show. If the name is found, it replies to the comment with a quote from the character. There is a separate [repository](https://github.com/saadpocalypse/CreedBrattonBot) for this bot.
 
  <hr>
