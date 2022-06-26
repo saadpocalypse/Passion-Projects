@@ -25,7 +25,7 @@ More details in the markdown file included in the folder.
 
  <hr>
 
- ### 4. Zipf's Law
+ ## 4. Zipf's Law
  Zipf's Law is a statistical distribution in certain data sets, such as words in a linguistic corpus, in which the frequencies of certain words are inversely proportional to their ranks. I performed a statistical analysis on the words in the script of the [Bee Movie](https://www.imdb.com/title/tt0389790/), and I plotted a graph of the top twenty most used words in the scripts against their frequencies to see if Zipf's Law holds. More information on the project is in the folder.
 
  <hr>
