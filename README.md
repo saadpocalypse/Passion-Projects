@@ -15,7 +15,7 @@ More details in the markdown file included in the folder.
 <hr>
 
 
-### 2. Luhn Algorithm
+## 2. Luhn Algorithm
  Luhn Algorithm, named after its creator, Hans Peter Luhn, is an algorithm to determine the validity of a plethora of identification numbers. The one I made is specifically for credit/debit card numbers.
 
  <hr>
