@@ -1,7 +1,7 @@
 # Passion Projects
 
 These are random projects I make when I'm bored.
-]
+
 
 ## 1. Spelling Game (made in Python)
 This game is similar to Spelling Bee by Times New York, all credit goes to them, not me. <br>
