@@ -1,8 +1,7 @@
 # Passion Projects
 
 These are random projects I make when I'm bored.
-
-<hr>
+]
 
 ## 1. Spelling Game (made in Python)
 This game is similar to Spelling Bee by Times New York, all credit goes to them, not me. <br>
@@ -12,30 +11,22 @@ At any point in the game, you can enter '!!' as input to end the game and see a 
 Rest of the rules are explained once you run the code. <br>
 More details in the markdown file included in the folder.
 
-<hr>
-
-
 ## 2. Luhn Algorithm
 Luhn Algorithm, named after its creator, Hans Peter Luhn, is an algorithm to determine the validity of a plethora of identification numbers. The one I made is specifically for credit/debit card numbers.
 
- <hr>
 
 ## 3. Creed Bratton Bot
 This bot goes through the Dunder Mifflin subreddit for the show The Office (US version) and looks for comments that mention Creed Bratton, a character from the show. If the name is found, it replies to the comment with a quote from the character. There is a separate [repository](https://github.com/saadpocalypse/CreedBrattonBot) for this bot.
 
- <hr>
 
 ## 4. Zipf's Law
 Zipf's Law is a statistical distribution in certain data sets, such as words in a linguistic corpus, in which the frequencies of certain words are inversely proportional to their ranks. I performed a statistical analysis on the words in the script of the [Bee Movie](https://www.imdb.com/title/tt0389790/), and I plotted a graph of the top twenty most used words in the scripts against their frequencies to see if Zipf's Law holds. More information on the project is in the folder.
 
- <hr>
 
 ## 5. Wordle Solver
 I made a solver for Wordle that uses the correct, incorrect and partially correct guesses from each turn you make to determine the possible options you have left until they are narrowed down to a single guess. More information is in the markdown file included in the folder.
 
- <hr>
 
 ## 6. Palette Maker
 I made a random color palette generator using HTML, CSS (Bootstrap 5) and JavaScript. Buttons in the footer are used to generate a random color in the column above and the hexcode for the color can be copied to clipboard by clicking on the column itself. More information is in the markdown file included in the folder.
 
- <hr>
