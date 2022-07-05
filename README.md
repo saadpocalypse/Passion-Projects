@@ -32,4 +32,4 @@ I made a random color palette generator using HTML, CSS (Bootstrap 5) and JavaSc
 
 
 ## 7. Sliding Puzzle
-A normal 3x3 sliding puzzle game that randomly picks one of the few pictures I've put in, shuffles them and presents them to the user. I've built a move counter, a time counter and a solver for the game as well. The solver does not follow any particular sorting algorithm, I did it this way on purpose because the longer it takes to solve, the cooler it looks.
+A normal 3x3 sliding puzzle game that randomly picks one of the few pictures I've put in, shuffles them and presents them to the user. I've built a move counter, a time counter and a solver for the game as well. The solver does not follow any particular sorting algorithm, I did it this way on purpose because the longer it takes to solve, the cooler it looks. The user can also switch the picture tiles out for numbered tiles to make it easier to solve the puzzle.
