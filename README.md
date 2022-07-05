@@ -30,3 +30,6 @@ I made a solver for Wordle that uses the correct, incorrect and partially correc
 ## 6. Palette Maker
 I made a random color palette generator using HTML, CSS (Bootstrap 5) and JavaScript. Buttons in the footer are used to generate a random color in the column above and the hexcode for the color can be copied to clipboard by clicking on the column itself. More information is in the markdown file included in the folder.
 
+
+## 7. Sliding Puzzle
+A normal 3x3 sliding puzzle game that randomly picks one of the few picture's I've put in, shuffles them and presents them to the user. I've built a move counter, a time counter and a solver for the game as well. The solver does not follow any particular sorting algorithm, I did it this way on purpose because the longer it takes to solve, the cooler it looks.
