@@ -1,0 +1,43 @@
+body{
+    font-family: "SF Pro Display", sans-serif;
+    text-align: center;
+    color: #000000;
+    background: url("Background.jpg") center no-repeat;
+}
+
+#puzzleBoard{
+    width: 360px;
+    height: 360px;
+    background-color: #000000;
+    border: 10px solid #000000;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#puzzleBoard img{
+    width: 118px;
+    height: 118px;
+    border: 1px solid #000000;
+}
+
+button{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 35px;
+    font-size: medium;
+}
+
+button:hover{
+    background-color: #565656;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: #9f9f9f;
+}
+

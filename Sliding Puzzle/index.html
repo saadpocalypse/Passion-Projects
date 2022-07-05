@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Slide Puzzle</title>
+        <link rel="stylesheet" href="puzzle.css">
+        <script src="puzzle.js"></script>
+    </head>
+
+    <body>
+        <h1>Sliding Puzzle</h1>
+        <div id="puzzleBoard" style="margin-top: 120px">
+        </div>
+        <button onclick="restart()" id = "restart">Restart</button>
+        <button onclick="tileNumbers()" id = "btn">Show Tile Numbers</button>
+        <button onclick="solver()" id = "solve">Solve</button>
+        <h1>Moves: <span id="moveCount">0</span></h1>
+        <h1>Time: <span id = "stopwatch">00:00:00</span></h1>
+    </body>
+</html>
