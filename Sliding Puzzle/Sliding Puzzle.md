@@ -9,3 +9,5 @@
 * If it does, the sources for the two `<img>` divs are switched.
 
 ## How Shuffling works
+* Randomly shuffling the tiles around does not ensure that the puzzle will be solvable. 
+* Imagine a N-1 puzzle after it has been shuffled, where N is the total number of tiles. If we write the number of tiles starting from top right and end it on the bottom left (ignoring the blank tile), we can deduce whether or not the puzzle is solvable by checking the number of inversions.
