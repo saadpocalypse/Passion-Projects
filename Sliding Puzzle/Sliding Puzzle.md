@@ -15,3 +15,4 @@
 
 ## How solving works
 * I could have solved the puzzle using any of the solving algorithms. I did this initially but the puzzles got solved almost instantly since N is 9.
+* Instead I created a function that logs the counter move of every single move made in an array (including moves made during shuffling)
