@@ -14,3 +14,4 @@
 * Instead of randomly shuffling the tiles around, my program makes 200 random yet valid moves. 200 is an arbitrary number.
 
 ## How solving works
+* I could have solved the puzzle using any of the solving algorithms. I did this initially but the puzzles got solved almost instantly since N is 9.
