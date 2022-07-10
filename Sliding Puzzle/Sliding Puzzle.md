@@ -3,7 +3,7 @@
 ## What it is
 * A simple 3x3 sliding puzzle game.
 * You slide a tile into its adjacent empty space.
-* You repeat
+* You repeat until puzzle is fully 
 
 ## How the game works
 * The game was made using HTML, CSS and Javascript.
