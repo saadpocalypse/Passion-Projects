@@ -26,7 +26,7 @@
 
 <br>
 
-## How solving works
+## How the solver works
 * I could have solved the puzzle using any of the solving algorithms. I did this initially but the puzzles got solved almost instantly since N is 9.
 * Instead I created a function that logs the counter move of every single move made in an array (including moves made during shuffling) and when the user hits the solve button, the array is parsed and each element of the array is passed as an argument to a function that moves the tiles around.
 * This solves the puzzle by moving backwards from the move at which the solve button is clicked. It takes longer and in my opinion, looks cooler.
