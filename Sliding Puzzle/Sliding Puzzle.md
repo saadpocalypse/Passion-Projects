@@ -1,5 +1,9 @@
 # Sliding Puzzle
 
+## What it is
+* A simple 3x3 sliding puzzle game.
+* You slide a tile into 
+
 ## How the game works
 * The game was made using HTML, CSS and Javascript.
 * I randomly pick one of the folders and asssign the images as sources to the `<img>` divs I make.
